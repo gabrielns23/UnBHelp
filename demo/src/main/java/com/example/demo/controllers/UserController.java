@@ -7,12 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.getMapping;
 
-
-
 @RestController
 @RequestMapping("/user")
 public class UserController {
-    @getMapping
+    @GetMapping
     public ResponseEntity getAllUser(){
         return ResponseEntity.ok();
     }

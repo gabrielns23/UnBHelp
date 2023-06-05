@@ -3,7 +3,7 @@ package com.example.demo.controllers;
 @RestController
 @RequestMapping("/professor")
 public class ProfessorController {
-    @getMapping
+    @GetMapping
     public ReponseEntity getAllProfessor(){
         return ResponseEntity.ok();
     }

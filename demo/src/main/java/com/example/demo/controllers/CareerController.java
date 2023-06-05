@@ -4,7 +4,7 @@ package com.example.demo.controllers;
 @RestController
 @RequestMapping("/career")
 public class CareerController {
-    @getMapping
+    @GetMapping
     public ResponseEntity getAllCareer(){
         return ResponseEntity.ok();
     }
